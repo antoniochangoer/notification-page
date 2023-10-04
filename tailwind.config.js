@@ -6,6 +6,7 @@ export default {
       backgroundColor: {
         'main-red': '#F65552',
         'main-blue': '#0A327B',
+        'background-desktop': '#F9FAFD',
       },
       colors: {
         'main-red': '#F65552',

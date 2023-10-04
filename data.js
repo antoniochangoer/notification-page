@@ -1,38 +1,61 @@
-// const messages = [
-//     {
-//         name: 'Mark Webber',
-//         action: 'reacted to your recent post',
-//         topic: 'My first tournament today!',
-//         time: '1m ago'
-//     },
-//     {
-//         name: 'Angela Gray',
-//         action: 'followed you',
-//         topic: null,
-//         time: '5m ago'
-//     },
-//     {
-//         name: 'Jacob Thompson',
-//         action: 'has joined your group',
-//         topic: 'Chess Club',
-//         time: '1m ago'
-//     },
-//     {
-//         name: 'Mark Webber',
-//         action: 'reacted to your recent post',
-//         topic: 'My first tournament today!',
-//         time: '1m ago'
-//     },
-//     {
-//         name: 'Mark Webber',
-//         action: 'reacted to your recent post',
-//         topic: 'My first tournament today!',
-//         time: '1m ago'
-//     },
-//     {
-//         name: 'Mark Webber',
-//         action: 'reacted to your recent post',
-//         topic: 'My first tournament today!',
-//         time: '1m ago'
-//     }
-// ];
+export const data = [
+  {
+    id: 1,
+    name: 'Mark Webber',
+    action: 'reacted to your recent post',
+    topic: 'My first tournament today!',
+    time: '1m ago',
+    read: false,
+  },
+  {
+    id: 2,
+    name: 'Angela Gray',
+    action: 'followed you',
+    topic: null,
+    time: '5m ago',
+    read: false,
+  },
+  {
+    id: 3,
+    name: 'Jacob Thompson',
+    action: 'has joined your group',
+    topic: 'Chess Club',
+    time: '1day ago',
+    read: false,
+  },
+  {
+    id: 4,
+    name: 'Rizky Hasanuddin',
+    action: 'sent you a private message',
+    topic: null,
+    textMessage:
+      'Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.',
+    time: '1m ago',
+    read: true,
+  },
+  {
+    id: 5,
+    name: 'Kimberly Smith',
+    action: 'commented on your picture',
+    topic: null,
+    picture: 'image-chess.webp',
+    time: '1week ago',
+    read: true,
+  },
+  {
+    id: 6,
+    name: 'Nathan Peterson',
+    action: 'reacted to your recent post',
+    topic: '5 end-game strategies to increase your win rate',
+    time: '2weeks ago',
+    read: true,
+  },
+  {
+    id: 7,
+    name: 'Anna Kim',
+    action: 'left the group',
+    topic: 'Chess Club',
+    time: '2weeks ago',
+    read: true,
+  },
+];
