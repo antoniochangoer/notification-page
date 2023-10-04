@@ -32,7 +32,7 @@ export default function Notification({ messages, setMessages, message }) {
         <div className="flex">
           <img
             className="h-10 w-10 mr-3"
-            src={`src/assets/images/avatar-${imgUrl}.webp`}
+            src={`dist/assets/images/avatar-${imgUrl}.webp`}
             alt="profile picture"
           />
           <div className="flex flex-col">
