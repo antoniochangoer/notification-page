@@ -61,6 +61,7 @@ export default function Notification({ messages, setMessages, message }) {
             <img
               className="h-10 w-10 rounded-md ml-auto"
               src={`/assets/images/${picture}`}
+              alt="Woman playing chess"
             />
           )}
         </div>
